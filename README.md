@@ -6,6 +6,10 @@ This project analyzes shard fusion rules to determine which shard combinations y
 Rather than simulating gameplay, the engine focuses on economic optimization:
 Which two shards should be bought, fused, and resold for maximum profit?
 
+Heres a current example of the CLI output using the fusion logic of base shards
+(WIP/Special fusion logic not implemented)
+![Example Output](image.png)
+
 # Overview
 This engine is designed to plug into:
 - Bazaar price scraping
@@ -18,7 +22,7 @@ This engine is designed to plug into:
 - Compare input cost vs output resale value
 - Rank shard pairs by expected profit
 
-## Rules
+# Rules
 This system is built like a rule engine, not a lookup table.
 Fusion behavior is defined in JSON, not Python
 Adding new shards or rules requires zero code changes
@@ -30,3 +34,5 @@ This makes the engine:
 - Extensible
 - Testable
 - Suitable for automation and data analysis
+
+##
