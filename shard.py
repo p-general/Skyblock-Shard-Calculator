@@ -1,6 +1,9 @@
 import pandas as pd
 import json
 
+"""The steps I used to clean the messy CSV. file that I had scraped from a Google Spreadsheet
+that had most of the shard data used in this program."""
+
 # Step 1: Read CSV 
 df = pd.read_csv("data.csv")
 

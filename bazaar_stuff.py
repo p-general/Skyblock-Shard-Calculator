@@ -2,6 +2,9 @@ import requests
 import json
 
 url = "https://api.hypixel.net/v2/skyblock/bazaar"
+"""
+Pulling the bazaar data using Hypixel's public API for Hypixel Skyblock
+"""
 
 response = requests.get(url)
 response.raise_for_status
