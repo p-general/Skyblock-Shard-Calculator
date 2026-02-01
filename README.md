@@ -8,7 +8,7 @@ Which two shards should be bought, fused, and resold for maximum profit?
 
 Heres a current example of the CLI output using the fusion logic of base shards
 (WIP/Special fusion logic not implemented)
-![Example Output](image.png)
+![Example Output](files/image.png)
 
 # Overview
 This engine is designed to plug into:
