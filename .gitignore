@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.idea/
+.vscode/
+jjkas.py
+shard_data_fixedd.json
+special_fusions_pretty.json
+special_fusions.json
