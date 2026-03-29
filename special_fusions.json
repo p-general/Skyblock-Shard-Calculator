@@ -1,0 +1,906 @@
+{
+    "C1": [
+        {
+            "type": "rarity_category",
+            "rarity": "Common",
+            "category": "Forest"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Uncommon"
+        }
+    ],
+    "C2": [
+        {
+            "type": "rarity_category",
+            "rarity": "Common",
+            "category": "Water"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Uncommon"
+        }
+    ],
+    "C3": [
+        {
+            "type": "rarity_category",
+            "rarity": "Common",
+            "category": "Combat"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Uncommon"
+        }
+    ],
+    "C16": [
+        {
+            "type": "family",
+            "family": "Shulker"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Common"
+        }
+    ],
+    "C24": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Combat"
+        }
+    ],
+    "C34": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Common"
+        }
+    ],
+    "C35": [
+        {
+            "type": "family",
+            "family": "Axolotl"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Water"
+        }
+    ],
+    "U1": [
+        {
+            "type": "rarity_category",
+            "rarity": "Uncommon",
+            "category": "Forest"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "F": [
+        {
+            "type": "rarity_category",
+            "rarity": "Uncommon",
+            "category": "Water"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "U3": [
+        {
+            "type": "rarity_category",
+            "rarity": "Uncommon",
+            "category": "Combat"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "U5": [
+        {
+            "type": "specific_shard",
+            "shard": "Golden Ghoul"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Water"
+        }
+    ],
+    "U6": [
+        {
+            "type": "family",
+            "family": "Cave Dweller"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Combat"
+        }
+    ],
+    "U7": [
+        {
+            "type": "family",
+            "family": "Cave Dweller"
+        },
+        {
+            "type": "family",
+            "family": "Shulker"
+        }
+    ],
+    "U8": [
+        {
+            "type": "family",
+            "family": "Newt"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Water"
+        }
+    ],
+    "U9": [
+        {
+            "type": "family",
+            "family": "Shulker"
+        },
+        {
+            "type": "family",
+            "family": "Reptile"
+        }
+    ],
+    "U11": [
+        {
+            "type": "family",
+            "family": "Tadgang"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Forest"
+        }
+    ],
+    "U21": [
+        {
+            "type": "specific_shard",
+            "shard": "Cuboa"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Combat"
+        }
+    ],
+    "U22": [
+        {
+            "type": "category_exclusive",
+            "category": "Combat"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Pest"
+        }
+    ],
+    "U34": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Uncommon"
+        }
+    ],
+    "U39": [
+        {
+            "type": "family",
+            "family": "Frog"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Combat"
+        }
+    ],
+    "U40": [
+        {
+            "type": "family",
+            "family": "Bug"
+        },
+        {
+            "type": "any_shard"
+        }
+    ],
+    "R1": [
+        {
+            "type": "rarity_category",
+            "rarity": "Rare",
+            "category": "Forest"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Epic"
+        }
+    ],
+    "R2": [
+        {
+            "type": "rarity_category",
+            "rarity": "Rare",
+            "category": "Water"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Epic"
+        }
+    ],
+    "R3": [
+        {
+            "type": "rarity_category",
+            "rarity": "Rare",
+            "category": "Combat"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Epic"
+        }
+    ],
+    "R4": [
+        {
+            "type": "family",
+            "family": "Panda"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Uncommon"
+        }
+    ],
+    "R5": [
+        {
+            "type": "family",
+            "family": "Frog"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Uncommon",
+            "category": "Forest"
+        }
+    ],
+    "R8": [
+        {
+            "type": "family",
+            "family": "Lizard"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Uncommon",
+            "category": "Water"
+        }
+    ],
+    "R9": [
+        {
+            "type": "specific_shard",
+            "shard": "Viper"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Uncommon",
+            "category": "Combat"
+        }
+    ],
+    "R13": [
+        {
+            "type": "family",
+            "family": "Shulker"
+        },
+        {
+            "type": "family",
+            "family": "Wither"
+        }
+    ],
+    "R15": [
+        {
+            "type": "specific_shard",
+            "shard": "Lapis Zombie"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "R16": [
+        {
+            "type": "specific_shard",
+            "shard": "Termite"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Praying Mantis"
+        }
+    ],
+    "R22": [
+        {
+            "type": "family",
+            "family": "Shulker"
+        },
+        {
+            "type": "family",
+            "family": "Demon"
+        }
+    ],
+    "R30": [
+        {
+            "type": "specific_shard",
+            "shard": "Lapis Skeleton"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "R33": [
+        {
+            "type": "specific_shard",
+            "shard": "Troglobyte"
+        },
+        {
+            "type": "family",
+            "family": "Cave Dweller"
+        }
+    ],
+    "R34": [
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Rare",
+            "family":"Shulker"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "R43": [
+        {
+            "type": "specific_shard",
+            "shard": "Termite"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Invisibug"
+        }
+    ],
+    "R46": [
+        {
+            "type": "family",
+            "family": "Frog"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Forest"
+        }
+    ],
+    "R49": [
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Phanpyre"
+        }
+    ],
+    "R51": [
+        {
+            "type": "specific_shard",
+            "shard": "Quartzfang"
+        },
+        {
+            "type": "family",
+            "family": "Cave Dweller"
+        }
+    ],
+    "R52": [
+        {
+            "type": "family",
+            "family": "Cave Dweller"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Forest"
+        }
+    ],
+    "R54": [
+        {
+            "type": "specific_shard",
+            "shard": "Python"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Uncommon",
+            "category": "Combat"
+        }
+    ],
+    "R58": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "E1": [
+        {
+            "type": "rarity_category",
+            "rarity": "Epic",
+            "category": "Forest"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "E2": [
+        {
+            "type": "rarity_category",
+            "rarity": "Epic",
+            "category": "Water"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "E3": [
+        {
+            "type": "rarity_category",
+            "rarity": "Epic",
+            "category": "Combat"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "E4": [
+        {
+            "type": "family",
+            "family": "Panda"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Rare"
+        }
+    ],
+    "E5": [
+        {
+            "type": "family",
+            "family": "Lizard"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Water"
+        }
+    ],
+    "E6": [
+        {
+            "type": "specific_shard",
+            "shard": "Crocodile"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Combat"
+        }
+    ],
+    "E7": [
+        {
+            "type": "specific_shard",
+            "shard": "Bullfrog"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Forest"
+        }
+    ],
+    "E9": [
+        {
+            "type": "specific_shard",
+            "shard": "King Cobra"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Combat"
+        }
+    ],
+    "E10": [
+        {
+            "type": "specific_shard",
+            "shard": "Gecko"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Forest"
+        }
+    ],
+    "E11": [
+        {
+            "type": "specific_shard",
+            "shard": "Eel"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Water"
+        }
+    ],
+    "E13": [
+        {
+            "type": "specific_shard",
+            "shard": "Ladybug"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Bug"
+        }
+    ],
+    "E14": [
+        {
+            "type": "specific_shard",
+            "shard": "Moray Eel"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Firefly"
+        }
+    ],
+    "E16": [
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Rare",
+            "family": "Shulker"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Epic"
+        }
+    ],
+    "E22": [
+        {
+            "type": "specific_shard",
+            "shard": "Iguana"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Forest"
+        }
+    ],
+    "E28": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Epic"
+        }
+    ],
+    "E30": [
+        {
+            "type": "specific_shard",
+            "shard": "Alligator"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Combat"
+        }
+    ],
+    "E31": [
+        {
+            "type": "specific_shard",
+            "shard": "Praying Mantis"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Bezal"
+        }
+    ],
+    "E32": [
+        {
+            "type": "specific_shard",
+            "shard": "Moray Eel"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Water"
+        }
+    ],
+    "E35": [
+        {
+            "type": "specific_shard",
+            "shard": "Shellwise"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Rare",
+            "category": "Water"
+        }
+    ],
+    "E36": [
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Rare",
+            "family": "Cave Dweller"
+        },
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Epic",
+            "family": "Cave Dweller"
+        }
+    ],
+    "E37": [
+        {
+            "type": "specific_shard",
+            "shard": "Firefly"
+        },
+        {
+            "type": "family",
+            "family": "Dragon"
+        }
+    ],
+    "L1": [
+        {
+            "type": "rarity_category",
+            "rarity": "Legendary",
+            "category": "Forest"
+        },
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Epic",
+            "family": "Elemental"
+        }
+    ],
+    "L2": [
+        {
+            "type": "rarity_category",
+            "rarity": "Legendary",
+            "category": "Water"
+        },
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Epic",
+            "family": "Elemental"
+        }
+    ],
+    "L3": [
+        {
+            "type": "rarity_category",
+            "rarity": "Legendary",
+            "category": "Combat"
+        },
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Epic",
+            "family": "Elemental"
+        }
+    ],
+    "L6": [
+        {
+            "type": "specific_shard",
+            "shard": "Caiman"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Combat"
+        }
+    ],
+    "L7": [
+        {
+            "type": "specific_shard",
+            "shard": "Komodo Dragon"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Forest"
+        }
+    ],
+    "L8": [
+        {
+            "type": "specific_shard",
+            "shard": "Leatherback"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Water"
+        }
+    ],
+    "L11": [
+        {
+            "type": "specific_shard",
+            "shard": "Sea Serpent"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Water"
+        }
+    ],
+    "L12": [
+        {
+            "type": "specific_shard",
+            "shard": "Lapis Skeleton"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Ghost"
+        }
+    ],
+    "L13": [
+        {
+            "type": "specific_shard",
+            "shard": "Dragonfly"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "L18": [
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        }
+    ],
+    "L20": [
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        },
+        {
+            "type": "category_exclusive",
+            "category": "Water"
+        }
+    ],
+    "L24": [
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        },
+        {
+            "type": "family",
+            "family": "Bird"
+        }
+    ],
+    "L25": [
+        {
+            "type": "rarity_plus_family",
+            "rarity": "Epic",
+            "family": "Shulker"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "L29": [
+        {
+            "type": "specific_shard",
+            "shard": "Tortoise"
+        },
+        {
+            "type": "rarity_plus_category",
+            "rarity": "Epic",
+            "category": "Water"
+        }
+    ],
+    "L31": [
+        {
+            "type": "family",
+            "family": "Bird"
+        },
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        }
+    ],
+    "L32": [
+        {
+            "type": "specific_shard",
+            "shard": "Shinyfish"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Bezal"
+        }
+    ],
+    "L33": [
+        {
+            "type": "specific_shard",
+            "shard": "Power Dragon"
+        },
+        {
+            "type": "any_shard"
+        }
+    ],
+    "L34": [
+        {
+            "type": "rarity_plus",
+            "rarity": "Legendary"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Condor"
+        }
+    ],
+    "L36": [
+        {
+            "type": "specific_shard",
+            "shard": "Power Dragon"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        }
+    ],
+    "L39": [
+        {
+            "type": "specific_shard",
+            "shard": "Apex Dragon"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Kraken"
+        }
+    ],
+    "L41": [
+        {
+            "type": "specific_shard",
+            "shard": "Sun Fish"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Sun Fish"
+        }
+    ],
+    "L42": [
+        {
+            "type": "specific_shard",
+            "shard": "Etherdrake"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Jormung"
+        }
+    ],
+    "L44": [
+        {
+            "type": "rarity_category",
+            "rarity": "Legendary",
+            "category": "Elemental"
+        },
+        {
+            "type": "specific_shard",
+            "shard": "Galaxy Fish"
+        }
+    ]
+}

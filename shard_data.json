@@ -1,0 +1,2355 @@
+{
+    "C1": {
+        "name": "Grove",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C4"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "C2": {
+        "name": "Mist",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C5"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "C3": {
+        "name": "Flash",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C9"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "C4": {
+        "name": "Phanpyre",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C7"
+        ],
+        "families": [
+            "Phantom"
+        ]
+    },
+    "C5": {
+        "name": "Cod",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C8"
+        ],
+        "families": [
+            "Tropical Fish"
+        ]
+    },
+    "C7": {
+        "name": "Phanflare",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C10"
+        ],
+        "families": [
+            "Phantom"
+        ]
+    },
+    "C8": {
+        "name": "Night Squid",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C11"
+        ],
+        "families": [
+            "Squid"
+        ]
+    },
+    "C9": {
+        "name": "Lapis Zombie",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C12"
+        ],
+        "families": [
+            "Lapis"
+        ]
+    },
+    "C10": {
+        "name": "Hideonleaf",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C25"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "C11": {
+        "name": "Verdant",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C14"
+        ],
+        "families": [
+            "Tropical Fish"
+        ]
+    },
+    "C12": {
+        "name": "Chill",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C15"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C14": {
+        "name": "Bogged",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C17"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C15": {
+        "name": "Voracious Spider",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C18"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C16": {
+        "name": "Hideongift",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C25"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "C17": {
+        "name": "Birries",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C20"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C18": {
+        "name": "Tank Zombie",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C21"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C19": {
+        "name": "Crow",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C25"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "C20": {
+        "name": "Tadgang",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C23"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "C21": {
+        "name": "Zealot",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C27"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C23": {
+        "name": "Coralot",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Axolotl"
+        ]
+    },
+    "C24": {
+        "name": "Harpy",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "C27"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "C25": {
+        "name": "Mudworm",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C27": {
+        "name": "Golden Ghoul",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C29"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C29": {
+        "name": "Azure",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C30"
+        ],
+        "families": [
+            "Tropical Fish"
+        ]
+    },
+    "C30": {
+        "name": "Bezal",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C33"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C33": {
+        "name": "Yog",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C36"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "C34": {
+        "name": "Boreal Owl",
+        "category": "Forest",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "C35": {
+        "name": "Newt",
+        "category": "Water",
+        "rarity": "Common",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Lizard", "Reptile"
+        ]
+    },
+    "C36": {
+        "name": "Miner Zombie",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "C39"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "C39": {
+        "name": "Cretan Bull",
+        "category": "Combat",
+        "rarity": "Common",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U1": {
+        "name": "Bramble",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U10"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "U2": {
+        "name": "Tide",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U11"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "U3": {
+        "name": "Quake",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U12"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "U4": {
+        "name": "Sparrow",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U10"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "U5": {
+        "name": "Goldfin",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U11"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U6": {
+        "name": "Troglobyte",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U12"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "U7": {
+        "name": "Hideoncave",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U10"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "U8": {
+        "name": "Salamander",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U11"
+        ],
+        "families": [
+            "Lizard", "Reptile"
+        ]
+    },
+    "U9": {
+        "name": "Cuboa",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U12"
+        ],
+        "families": [
+            "Reptile", "Serpent"
+        ]
+    },
+    "U10": {
+        "name": "Pest",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U25"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "U11": {
+        "name": "Mossybit",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U20"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "U12": {
+        "name": "Rain Slime",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U15"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U15": {
+        "name": "Seer",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U18"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U16": {
+        "name": "Heron",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U25"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "U18": {
+        "name": "Obsidian Defender",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U24"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U20": {
+        "name": "Salmon",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U29"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U21": {
+        "name": "Viper",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U24"
+        ],
+        "families": [
+            "Reptile", "Serpent"
+        ]
+    },
+    "U22": {
+        "name": "Praying Mantis",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U25"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "U24": {
+        "name": "Zombie Soldier",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U27"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U25": {
+        "name": "Bambuleaf",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U31"
+        ],
+        "families": [
+            "Panda"
+        ]
+    },
+    "U27": {
+        "name": "Sycophant",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U30"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U28": {
+        "name": "Seagull",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "U31"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "U29": {
+        "name": "Ent",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U32"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U30": {
+        "name": "Soul of the Alpha",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U33"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U31": {
+        "name": "Mochibear",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Panda"
+        ]
+    },
+    "U32": {
+        "name": "Magma Slug",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U38"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U33": {
+        "name": "Flaming Spider",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "U36"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U34": {
+        "name": "Kiwi",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "U36": {
+        "name": "Bruiser",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "U38": {
+        "name": "Stridersurfer",
+        "category": "Water",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Drowned"
+        ]
+    },
+    "U39": {
+        "name": "Rana",
+        "category": "Combat",
+        "rarity": "Uncommon",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "U40": {
+        "name": "Termite",
+        "category": "Forest",
+        "rarity": "Uncommon",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R1": {
+        "name": "Sylvan",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R7"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "R2": {
+        "name": "Cascade",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R11"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "R3": {
+        "name": "Bolt",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R6"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "R4": {
+        "name": "Bambloom",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R7"
+        ],
+        "families": [
+            "Panda"
+        ]
+    },
+    "R5": {
+        "name": "Toad",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R11"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "R6": {
+        "name": "Glacite Walker",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R18"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R7": {
+        "name": "Beaconmite",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R10"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R8": {
+        "name": "Lizard King",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R11"
+        ],
+        "families": [
+            "Lizard", "Reptile"
+        ]
+    },
+    "R9": {
+        "name": "Python",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R18"
+        ],
+        "families": [
+            "Reptile", "Serpent"
+        ]
+    },
+    "R10": {
+        "name": "Invisibug",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R11": {
+        "name": "Piranha",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R23"
+        ],
+        "families": [
+            "Treasure Fish"
+        ]
+    },
+    "R13": {
+        "name": "Hideongeon",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "R15": {
+        "name": "Lapis Skeleton",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R18"
+        ],
+        "families": [
+            "Lapis"
+        ]
+    },
+    "R16": {
+        "name": "Cropeetle",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R18": {
+        "name": "Drowned",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R21"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R21": {
+        "name": "Star Sentry",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R24"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R22": {
+        "name": "Hideondra",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "R23": {
+        "name": "Abyssal Lanternfish",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R29"
+        ],
+        "families": [
+            "Treasure Fish"
+        ]
+    },
+    "R24": {
+        "name": "Arachne",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R27"
+        ],
+        "families": [
+            "Spider"
+        ]
+    },
+    "R25": {
+        "name": "Bitbug",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R27": {
+        "name": "Revenant",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R30"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R29": {
+        "name": "Silentdepth",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R35"
+        ],
+        "families": [
+            "Treasure Fish"
+        ]
+    },
+    "R30": {
+        "name": "Skeletor",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R31"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R31": {
+        "name": "Thyst",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R36"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "R33": {
+        "name": "Quartzfang",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R36"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "R34": {
+        "name": "Hideonring",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "R35": {
+        "name": "Snowfin",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R38"
+        ],
+        "families": [
+            "Treasure Fish"
+        ]
+    },
+    "R36": {
+        "name": "Kada Knight",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R39"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R38": {
+        "name": "Carrot King",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R44"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R39": {
+        "name": "Wither Specter",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R42"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R42": {
+        "name": "Matcho",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R45"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R43": {
+        "name": "Ladybug",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R49"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "R44": {
+        "name": "Lumisquid",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R50"
+        ],
+        "families": [
+            "Squid"
+        ]
+    },
+    "R45": {
+        "name": "Crocodile",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R57"
+        ],
+        "families": [
+            "Croco", "Reptile"
+        ]
+    },
+    "R46": {
+        "name": "Bullfrog",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R50"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "R49": {
+        "name": "Dreadwing",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R52"
+        ],
+        "families": [
+            "Phantom"
+        ]
+    },
+    "R50": {
+        "name": "Joydive",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R53"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R51": {
+        "name": "Stalagmight",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R57"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "R52": {
+        "name": "Fungloom",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "R53": {
+        "name": "Eel",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R56"
+        ],
+        "families": [
+            "Amphibian", "Eel"
+        ]
+    },
+    "R54": {
+        "name": "King Cobra",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "R57"
+        ],
+        "families": [
+            "Reptile", "Serpent"
+        ]
+    },
+    "R56": {
+        "name": "Lava Flame",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R59"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R57": {
+        "name": "Draconic",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R60"
+        ],
+        "families": [
+            "Dragon"
+        ]
+    },
+    "R58": {
+        "name": "Falcon",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "R59": {
+        "name": "Inferno Koi",
+        "category": "Water",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Treasure Fish"
+        ]
+    },
+    "R60": {
+        "name": "Wither",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "R63"
+        ],
+        "families": [
+            "Dragon"
+        ]
+    },
+    "R61": {
+        "name": "Gecko",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Reptile", "Scaled"
+        ]
+    },
+    "R63": {
+        "name": "Minotaur",
+        "category": "Combat",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "R64": {
+        "name": "Hummingbird",
+        "category": "Forest",
+        "rarity": "Rare",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "E1": {
+        "name": "Terra",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "E2": {
+        "name": "Cryo",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E17"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "E3": {
+        "name": "Aero",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E15"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "E4": {
+        "name": "Pandarai",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Panda"
+        ]
+    },
+    "E5": {
+        "name": "Leviathan",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E17"
+        ],
+        "families": [
+            "Lizard", "Reptile"
+        ]
+    },
+    "E6": {
+        "name": "Alligator",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E15"
+        ],
+        "families": [
+            "Croco", "Reptile"
+        ]
+    },
+    "E7": {
+        "name": "Fenlord",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E17"
+        ],
+        "families": [
+            "Amphibian", "Frog"
+        ]
+    },
+    "E9": {
+        "name": "Basilisk",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E15"
+        ],
+        "families": [
+            "Reptile", "Serpent"
+        ]
+    },
+    "E10": {
+        "name": "Iguana",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Reptile", "Scaled"
+        ]
+    },
+    "E11": {
+        "name": "Moray Eel",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E17"
+        ],
+        "families": [
+            "Amphibian", "Eel"
+        ]
+    },
+    "E13": {
+        "name": "Lunar Moth",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "E14": {
+        "name": "Fire Eel",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E17"
+        ],
+        "families": [
+            "Amphibian"
+        ]
+    },
+    "E15": {
+        "name": "Bal",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E18"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "E16": {
+        "name": "Hideonsack",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "E17": {
+        "name": "Water Hydra",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E20"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E18": {
+        "name": "Flare",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E21"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E20": {
+        "name": "Loch Emperor",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E26"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E21": {
+        "name": "Prince",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E24"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E22": {
+        "name": "Komodo Dragon",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "E24": {
+        "name": "Mimic",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E27"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E26": {
+        "name": "Shellwise",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "E27": {
+        "name": "Barbarian Duke X",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E29"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E28": {
+        "name": "Toucan",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "E29": {
+        "name": "Hellwisp",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E33"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E30": {
+        "name": "Caiman",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E33"
+        ],
+        "families": [
+            "Croco"
+        ]
+    },
+    "E31": {
+        "name": "Firefly",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "E34"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "E32": {
+        "name": "Sea Serpent",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Amphibian"
+        ]
+    },
+    "E33": {
+        "name": "Ghost",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E39"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "E34": {
+        "name": "XYZ",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E35": {
+        "name": "Leatherback",
+        "category": "Water",
+        "rarity": "Epic",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "E36": {
+        "name": "Cavernshade",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Cave Dweller"
+        ]
+    },
+    "E37": {
+        "name": "Dragonfly",
+        "category": "Forest",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "E39": {
+        "name": "Sphinx",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "E42"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "E42": {
+        "name": "King Minos",
+        "category": "Combat",
+        "rarity": "Epic",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L1": {
+        "name": "Tenebris",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L28"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "L2": {
+        "name": "Blizzard",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L14"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "L3": {
+        "name": "Tempest",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L9"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "L4": {
+        "name": "Chameleon",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 1,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L6": {
+        "name": "Tiamat",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L9"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L7": {
+        "name": "Wyvern",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L28"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L8": {
+        "name": "Tortoise",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L14"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L9": {
+        "name": "Endstone Protector",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L15"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L11": {
+        "name": "Naga",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L14"
+        ],
+        "families": [
+            "Amphibian"
+        ]
+    },
+    "L12": {
+        "name": "Lapis Creeper",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L15"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L13": {
+        "name": "Wartybug",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L28"
+        ],
+        "families": [
+            "Bug"
+        ]
+    },
+    "L14": {
+        "name": "Spike",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L17"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L15": {
+        "name": "Kraken",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L27"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L17": {
+        "name": "Taurus",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L23"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L18": {
+        "name": "Daemon",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L27"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L20": {
+        "name": "Moltenfish",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L23"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L23": {
+        "name": "Shinyfish",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L26"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L24": {
+        "name": "Ananke",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L27"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "L25": {
+        "name": "Hideonbox",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L28"
+        ],
+        "families": [
+            "Shulker"
+        ]
+    },
+    "L26": {
+        "name": "Lord Jawbus",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L47"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L27": {
+        "name": "Burningsoul",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L30"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L28": {
+        "name": "Cinderbat",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L29": {
+        "name": "Megalith",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L47"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L30": {
+        "name": "Power Dragon",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L48"
+        ],
+        "families": [
+            "Dragon"
+        ]
+    },
+    "L31": {
+        "name": "Condor",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "L32": {
+        "name": "Sun Fish",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L47"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L33": {
+        "name": "Apex Dragon",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L48"
+        ],
+        "families": [
+            "Dragon"
+        ]
+    },
+    "L34": {
+        "name": "Dodo",
+        "category": "Forest",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Bird"
+        ]
+    },
+    "L36": {
+        "name": "Jormung",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L48"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L39": {
+        "name": "Etherdrake",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L48"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L41": {
+        "name": "Galaxy Fish",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L47"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L42": {
+        "name": "Molthorn",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L48"
+        ],
+        "families": [
+            "Demon"
+        ]
+    },
+    "L44": {
+        "name": "Starborn",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": false,
+        "next_base_fusions": [
+            "L47"
+        ],
+        "families": [
+            "Elemental"
+        ]
+    },
+    "L47": {
+        "name": "Titanoboa",
+        "category": "Water",
+        "rarity": "Legendary",
+        "fusion_count": 2,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Reptile"
+        ]
+    },
+    "L48": {
+        "name": "Thorn",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "L51"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    },
+    "L51": {
+        "name": "Scarf",
+        "category": "Combat",
+        "rarity": "Legendary",
+        "fusion_count": 5,
+        "base_fusion_elig": true,
+        "next_base_fusions": [
+            "---"
+        ],
+        "families": [
+            "Unknown"
+        ]
+    }
+}

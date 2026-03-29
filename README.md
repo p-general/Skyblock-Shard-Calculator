@@ -1,38 +1,32 @@
 ## Project Description
-(Showcase of what is currently made still fully in development for this logic behind special fusions.)
-A data-driven shard fusion system built for the Hypixel SkyBlock server.
-This project analyzes shard fusion rules to determine which shard combinations yield the highest resale profit on the Bazaar.
+A data-driven shard fusion profit calculator built for the Hypixel SkyBlock server.
+
+This project analyzes shard fusion rules — both base and special — to determine which shard combinations yield the highest resale profit on the Bazaar.
 
 Rather than simulating gameplay, the engine focuses on economic optimization:
 Which two shards should be bought, fused, and resold for maximum profit?
 
-Heres a current example of the CLI output using the fusion logic of base shards
-(WIP/Special fusion logic not implemented)
 ![Example Output](files/image.png)
 
-# Overview
-This engine is designed to plug into:
-- Bazaar price scraping
-- Historical pricing analysis
-- Automated shard-flipping tools
+## Overview
+The engine pulls live Bazaar prices and evaluates every valid shard pair, ranking them by expected profit after tax.
 
-# Typical workflow:
-- Pull live Bazaar prices
-- Evaluate fusion outputs
-- Compare input cost vs output resale value
-- Rank shard pairs by expected profit
+It handles two fusion systems:
+- **Base fusions** — standard rarity/category-based fusion resolution
+- **Special fusions** — rule-driven overrides defined in JSON (family, rarity thresholds, specific shards, etc.)
 
-# Rules
-This system is built like a rule engine, not a lookup table.
-Fusion behavior is defined in JSON, not Python
-Adding new shards or rules requires zero code changes
-Fusion resolution mirrors in-game behavior, including:
-- Skipped outputs
-- Base-fusion precedence
-- Output limits
-This makes the engine:
-- Extensible
-- Testable
-- Suitable for automation and data analysis
+## Typical Workflow
+1. Pull live Bazaar prices from the Hypixel API
+2. Evaluate all valid fusion combinations
+3. Compare input cost vs output resale value
+4. Rank shard pairs by expected profit
 
-##
+## Architecture
+Fusion behavior is defined in JSON, not hardcoded in Python. Adding new shards or rules requires zero code changes.
+
+Key files:
+- `base_fusion_algo.py` — base fusion resolution and profit scanner
+- `special_fusion_algo.py` — special fusion rule engine and evaluate function
+- `bazaar_api_integration.py` — Hypixel Bazaar API integration
+- `shard_data.json` — shard definitions (name, rarity, category, family, fusion count)
+- `special_fusions.json` — special fusion rules
