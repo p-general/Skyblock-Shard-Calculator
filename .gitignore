@@ -4,7 +4,12 @@ __pycache__/
 .venv/
 .idea/
 .vscode/
-jjkas.py
+
+# Raw/intermediate data files
+data.csv
+shard_data_ready.json
+
+# Old file names
 shard_data_fixedd.json
 special_fusions_pretty.json
-special_fusions.json
+special_fusion.json
