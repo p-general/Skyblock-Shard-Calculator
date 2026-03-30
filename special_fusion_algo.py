@@ -154,6 +154,14 @@ def evaluate_fusion(left_id, right_id, directory, bazaar):
         profit = effective_sell - cost
         margin = (profit / cost * 100) if cost > 0 else 0
 
+        # Volume-weighted: how many times can this fusion realistically be executed
+        left_quick = bazaar.get(base_fusion_algo.bazaar_api_integration.shard_to_bazaar_key(directory[left_id]["name"]), {}).get("quick_status", {})
+        right_quick = bazaar.get(base_fusion_algo.bazaar_api_integration.shard_to_bazaar_key(directory[right_id]["name"]), {}).get("quick_status", {})
+        left_executions = left_quick.get("sellVolume", 0) // directory[left_id]["fusion_count"]
+        right_executions = right_quick.get("sellVolume", 0) // directory[right_id]["fusion_count"]
+        max_executions = min(left_executions, right_executions)
+        throughput_profit = profit * max_executions
+
         if not best_result or profit > best_result["profit"]:
             best_result = {
                 "left": left_id,
@@ -162,7 +170,9 @@ def evaluate_fusion(left_id, right_id, directory, bazaar):
                 "cost": cost,
                 "value": effective_sell,
                 "profit": profit,
-                "margin": margin
+                "margin": margin,
+                "max_executions": max_executions,
+                "throughput_profit": throughput_profit
             }
 
     return best_result

@@ -143,7 +143,7 @@
         ]
     },
     "C14": {
-        "name": "Bogged",
+        "name": "Sea Archer",
         "category": "Water",
         "rarity": "Common",
         "fusion_count": 5,
@@ -230,7 +230,8 @@
             "C23"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "C21": {
@@ -360,7 +361,8 @@
             "---"
         ],
         "families": [
-            "Lizard", "Reptile"
+            "Lizard",
+            "Reptile"
         ]
     },
     "C36": {
@@ -490,7 +492,8 @@
             "U11"
         ],
         "families": [
-            "Lizard", "Reptile"
+            "Lizard",
+            "Reptile"
         ]
     },
     "U9": {
@@ -503,7 +506,8 @@
             "U12"
         ],
         "families": [
-            "Reptile", "Serpent"
+            "Reptile",
+            "Serpent"
         ]
     },
     "U10": {
@@ -529,7 +533,8 @@
             "U20"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "U12": {
@@ -607,7 +612,8 @@
             "U24"
         ],
         "families": [
-            "Reptile", "Serpent"
+            "Reptile",
+            "Serpent"
         ]
     },
     "U22": {
@@ -767,7 +773,7 @@
         ]
     },
     "U38": {
-        "name": "Stridersurfer",
+        "name": "Strider Surfer",
         "category": "Water",
         "rarity": "Uncommon",
         "fusion_count": 5,
@@ -789,7 +795,8 @@
             "---"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "U40": {
@@ -867,7 +874,8 @@
             "R11"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "R6": {
@@ -906,7 +914,8 @@
             "R11"
         ],
         "families": [
-            "Lizard", "Reptile"
+            "Lizard",
+            "Reptile"
         ]
     },
     "R9": {
@@ -919,7 +928,8 @@
             "R18"
         ],
         "families": [
-            "Reptile", "Serpent"
+            "Reptile",
+            "Serpent"
         ]
     },
     "R10": {
@@ -1027,7 +1037,7 @@
         ]
     },
     "R23": {
-        "name": "Abyssal Lanternfish",
+        "name": "Abyssal Lantern",
         "category": "Water",
         "rarity": "Rare",
         "fusion_count": 5,
@@ -1244,7 +1254,8 @@
             "R57"
         ],
         "families": [
-            "Croco", "Reptile"
+            "Croco",
+            "Reptile"
         ]
     },
     "R46": {
@@ -1257,7 +1268,8 @@
             "R50"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "R49": {
@@ -1322,7 +1334,8 @@
             "R56"
         ],
         "families": [
-            "Amphibian", "Eel"
+            "Amphibian",
+            "Eel"
         ]
     },
     "R54": {
@@ -1335,7 +1348,8 @@
             "R57"
         ],
         "families": [
-            "Reptile", "Serpent"
+            "Reptile",
+            "Serpent"
         ]
     },
     "R56": {
@@ -1413,7 +1427,8 @@
             "---"
         ],
         "families": [
-            "Reptile", "Scaled"
+            "Reptile",
+            "Scaled"
         ]
     },
     "R63": {
@@ -1504,7 +1519,8 @@
             "E17"
         ],
         "families": [
-            "Lizard", "Reptile"
+            "Lizard",
+            "Reptile"
         ]
     },
     "E6": {
@@ -1517,7 +1533,8 @@
             "E15"
         ],
         "families": [
-            "Croco", "Reptile"
+            "Croco",
+            "Reptile"
         ]
     },
     "E7": {
@@ -1530,7 +1547,8 @@
             "E17"
         ],
         "families": [
-            "Amphibian", "Frog"
+            "Amphibian",
+            "Frog"
         ]
     },
     "E9": {
@@ -1543,7 +1561,8 @@
             "E15"
         ],
         "families": [
-            "Reptile", "Serpent"
+            "Reptile",
+            "Serpent"
         ]
     },
     "E10": {
@@ -1556,7 +1575,8 @@
             "E34"
         ],
         "families": [
-            "Reptile", "Scaled"
+            "Reptile",
+            "Scaled"
         ]
     },
     "E11": {
@@ -1569,7 +1589,8 @@
             "E17"
         ],
         "families": [
-            "Amphibian", "Eel"
+            "Amphibian",
+            "Eel"
         ]
     },
     "E13": {
@@ -1651,7 +1672,7 @@
         ]
     },
     "E20": {
-        "name": "Loch Emperor",
+        "name": "Sea Emperor",
         "category": "Water",
         "rarity": "Epic",
         "fusion_count": 5,
@@ -2158,7 +2179,7 @@
         ]
     },
     "L28": {
-        "name": "Cinderbat",
+        "name": "Cinder Bat",
         "category": "Forest",
         "rarity": "Legendary",
         "fusion_count": 5,

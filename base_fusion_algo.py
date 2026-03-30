@@ -68,11 +68,11 @@ def fusion_cost(left_shard: str, right_shard: str, directory: dict, bazaar: dict
         shard_status = bazaar.get(bazaar_key)
         
         if shard_status is None:
-            raise ValueError(f"No bazaar data found for {shard_name}")
-        
+            return None
+
         quick = shard_status["quick_status"]
         if quick is None:
-            raise ValueError(f"No quick status found for {shard_name}")
+            return None
         elif quick["sellVolume"] < fusion_count:
             return None
         elif quick["buyOrders"] > quick["sellOrders"] * 5:
@@ -152,21 +152,24 @@ def scan_all_fusions(shard_dict, bazaar_data, profit_calculator):
         try:
             # profit_calculator returns a dict
             fusion_info = profit_calculator(left_id, right_id, shard_dict, bazaar_data)
-            
-            # Add shard IDs for reference
+            if fusion_info is None:
+                continue
+
             fusion_info["left_shard"] = left_id
             fusion_info["right_shard"] = right_id
-            
+
             results.append(fusion_info)
-        except Exception as e:
-            # Skip invalid fusions (e.g., None output, missing bazaar data)
+        except Exception:
             continue
 
     # Convert to DataFrame for easy sorting/filtering
     df = pd.DataFrame(results)
     
-    # Sort by profit descending
-    df = df.sort_values(by="profit", ascending=False).reset_index(drop=True)
+    # Filter to profitable fusions only, then sort by throughput_profit
+    if "throughput_profit" in df.columns:
+        df = df[df["profit"] > 0].sort_values(by="throughput_profit", ascending=False).reset_index(drop=True)
+    else:
+        df = df[df["profit"] > 0].sort_values(by="profit", ascending=False).reset_index(drop=True)
     
     return df
 
