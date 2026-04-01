@@ -56,6 +56,24 @@ def fusion_output(left_id, right_id, shard_dict):
 
 
 
+def build_fusion_map(shard_dict):
+    """
+    Precompute a reverse map: output_id -> list of (left_id, right_id) pairs
+    that produce it via base fusion rules.
+    """
+    fusion_map = {}
+    shard_ids = list(shard_dict.keys())
+
+    for left_id, right_id in itertools.combinations(shard_ids, 2):
+        outputs = fusion_output(left_id, right_id, shard_dict)
+        for output_id in outputs:
+            if output_id not in fusion_map:
+                fusion_map[output_id] = []
+            fusion_map[output_id].append((left_id, right_id))
+
+    return fusion_map
+
+
 def fusion_cost(left_shard: str, right_shard: str, directory: dict, bazaar: dict):
     cost = 0
 
@@ -165,11 +183,10 @@ def scan_all_fusions(shard_dict, bazaar_data, profit_calculator):
     # Convert to DataFrame for easy sorting/filtering
     df = pd.DataFrame(results)
     
-    # Filter to profitable fusions only, then sort by throughput_profit
-    if "throughput_profit" in df.columns:
-        df = df[df["profit"] > 0].sort_values(by="throughput_profit", ascending=False).reset_index(drop=True)
-    else:
-        df = df[df["profit"] > 0].sort_values(by="profit", ascending=False).reset_index(drop=True)
+    # Sort by throughput_profit if available, otherwise by profit
+    sort_col = "throughput_profit" if "throughput_profit" in df.columns else "profit"
+    df = df.sort_values(by=sort_col, ascending=False)
+    df = df.drop_duplicates(subset="output", keep="first").reset_index(drop=True)
     
     return df
 
