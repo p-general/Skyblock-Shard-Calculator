@@ -145,6 +145,8 @@ def evaluate_fusion(left_id, right_id, directory, bazaar):
             continue
         if bOrders > sOrders * 5:
             continue
+        if bOrders == 0:
+            continue
 
         effective_sell = status["sellPrice"] * 0.97
         cost = base_fusion_algo.fusion_cost(left_id, right_id, directory, bazaar)

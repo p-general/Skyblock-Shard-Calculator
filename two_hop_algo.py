@@ -43,6 +43,8 @@ def scan_two_hop_fusions(shard_dict, bazaar):
                 continue
             if d_quick["buyOrders"] > d_quick["sellOrders"] * 5:
                 continue
+            if d_quick["sellOrders"] == 0:
+                continue
             d_cost = d_quick["buyPrice"] * d_shard["fusion_count"] * 0.9875
 
             for final_id in hop2_outputs:
@@ -56,6 +58,8 @@ def scan_two_hop_fusions(shard_dict, bazaar):
                 if final_status["buyVolume"] > final_status["sellVolume"] * 1.5:
                     continue
                 if final_status["buyOrders"] > final_status["sellOrders"] * 5:
+                    continue
+                if final_status["buyOrders"] == 0:
                     continue
 
                 effective_sell = final_status["sellPrice"] * 0.97

@@ -95,6 +95,8 @@ def fusion_cost(left_shard: str, right_shard: str, directory: dict, bazaar: dict
             return None
         elif quick["buyOrders"] > quick["sellOrders"] * 5:
             return None
+        elif quick["sellOrders"] == 0:
+            return None
 
         buy_price = quick["buyPrice"]
         cost += (buy_price * fusion_count) * 0.9875
@@ -126,6 +128,8 @@ def evaluate_fusion(left_id, right_id, directory, bazaar):
         if bVolume > sVolume * 1.5:
             continue
         if bOrders > sOrders * 5:
+            continue
+        if bOrders == 0:
             continue
 
         # effective sell price
